@@ -335,7 +335,7 @@ export type EvmAddress = `0x${string}`;
 export type DydxAddress = `dydx${string}`;
 
 export const DYDX_CHAIN_INFO: Parameters<typeof suggestChain>[0] = {
-  rpc: 'https://dydx-dev.chainport.pro/rpc',
+  rpc: 'https://dydx-rpc.chainport.pro',
   rest: 'https://dydx-dev.chainport.pro/rest',
   chainId: 'dydxprotocol-testnet',
   chainName: 'dYdX Public Testnet',
